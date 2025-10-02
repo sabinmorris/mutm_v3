@@ -1,0 +1,9 @@
+
+    Header set  Access-Control-Allow-Origin http://102.214.45.147:6060 
+
+    RewriteEngine On
+    RewriteBase /	
+    # Handle Authorization Header
+    RewriteCond %{HTTP_HOST} ^102\.223\.7\.136$
+    RewriteRule ^(.*)$ http://mutm.tamisemim.go.tz/$1 [L,R=301]
+
