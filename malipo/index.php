@@ -60,7 +60,7 @@
                       <div class="col-sm-6">
                         <?php
 
-                        $json = file_get_contents($pubIP1 . 'mutm/api/getAllBusiness?pageNum=1&pageSize=600'); //receive json from url
+                        $json = file_get_contents($pubIP1 . 'mutm/api/getAllBusiness?pageNum=1&pageSize=650'); //receive json from url
 
                         $arr = json_decode($json, true); //covert json data into array format yyyy
               
