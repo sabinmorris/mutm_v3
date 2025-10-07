@@ -118,7 +118,7 @@
                       <div class="card-body table-responsive p-0" id="zilizohakikiwaDiv">
                         <?php
 
-                        $json = file_get_contents($pubIP1 . 'mutm/api/getLicenseByStatus/true?pageNum=1&pageSize=300');
+                        $json = file_get_contents($pubIP1 . 'mutm/api/getLicenseByStatus/true?pageNum=1&pageSize=350');
                         $arr = json_decode($json, true); //covert json data into array format
 
                         include('approvedLicense.php');
