@@ -103,7 +103,7 @@
                     <div class="card-body table-responsive p-0" id="notPaidSearchDiv">
                         <?php
 
-                        $json = file_get_contents($pubIP1 . 'mutm/api/getLicenseByStatus/false?pageNum=1&pageSize=200');
+                        $json = file_get_contents($pubIP1 . 'mutm/api/getLicenseByStatus/false?pageNum=1&pageSize=500');
                         $arr = json_decode($json, true); //covert json data into array format
 
                         include('licenseList.php');
